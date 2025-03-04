@@ -1,0 +1,41 @@
+#i{
+    float: left;
+}
+h1{
+    text-align:center;
+    border: 809px 78px;
+    font-size: 69px;
+    
+}
+#display{
+    background-color: whitesmoke;
+}
+
+table{
+    border: 3px solid ;
+    margin: auto;
+    background-color: rgb(111, 20, 231);
+}
+
+input:hover{
+    background-color: rgb(122, 139, 129);
+}
+input:active{
+    background-color: rgb(230, 29, 29);
+}
+input{
+    background-color:rgb(55, 193, 231);
+    font-size: 59px;
+
+}
+input[type="button"]{
+    color: rgb(29, 32, 34);
+    width: 98%;
+}
+
+body{
+    color: rgb(17, 9, 42);
+    background-color: rgb(38, 213, 114);
+    
+    back
+}
