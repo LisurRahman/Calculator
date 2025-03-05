@@ -2,9 +2,10 @@
     float: left;
 }
 h1{
-    text-align:center;
+    text-align: center;
     border: 809px 78px;
     font-size: 69px;
+    white-space: nowrap;
     
 }
 #display{

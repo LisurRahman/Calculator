@@ -1,3 +1,5 @@
+alert("Assalamualikum, Dear User! Welcome to Leon Calculator website.")
+
 function appendToDisplay(value) {
     document.getElementById('display').value += value;
 }
