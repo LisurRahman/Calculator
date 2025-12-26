@@ -1,42 +1,112 @@
-#i{
-    float: left;
-}
-h1{
-    text-align: center;
-    border: 809px 78px;
-    font-size: 69px;
-    white-space: nowrap;
-    
-}
-#display{
-    background-color: whitesmoke;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-table{
-    border: 3px solid ;
+body {
+    color: rgb(17, 9, 42);
+    background-color: rgb(101, 218, 117);
+    font-size: 16px;
+
+    overflow: hi; 
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+#img {
+    float: left;
+    width: 10%;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: clamp(24px, 8vw, 69px);
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+#display {
+    background-color: whitesmoke;
+    padding: 15px;
+    
+}
+
+input::placeholder {
+    font-size: 70%;
+}
+
+table {
+    border: 3px solid;
     margin: auto;
     background-color: rgb(111, 20, 231);
+    width: 100%;
+    overflow-x: auto;
+    
 }
 
-input:hover{
+table td, table th {
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    background-color: rgb(55, 193, 231);
+    font-size: clamp(14px, 5vw, 59px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+input:hover {
     background-color: rgb(122, 139, 129);
 }
-input:active{
+
+input:active {
     background-color: rgb(230, 29, 29);
 }
-input{
-    background-color:rgb(55, 193, 231);
-    font-size: 59px;
 
-}
-input[type="button"]{
+input[type="button"] {
     color: rgb(29, 32, 34);
+    cursor: pointer;
     width: 98%;
+    max-width: 400px;
 }
 
-body{
-    color: rgb(17, 9, 42);
-    background-color: rgb(38, 213, 114);
-    
-    back
+/* Tablet devices (768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        padding: 30px;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    input {
+        max-width: 100%;
+    }
+}
+
+/* Desktop devices (1024px and up) */
+@media (min-width: 1024px) {
+    h1 {
+        padding: 40px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    input {
+        max-width: 100%;
+    }
 }

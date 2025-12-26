@@ -6,55 +6,44 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="Calculator.css">
     <link rel="icon" type="image/png" href="cal.png">
-    
 </head>
 <body>
-    <img id="i" src="cal.png" alt="Calculator icon">
+    <div class="top">
+        <img id="img" src="cal.png" alt="Calculator icon">
+    
     <h1>Leon Calculator</h1>
-  
-        <table>
-            <tr>
-                <td colspan="3"><input placeholder="Enter numbers or symbol" type="text" id="display" disabled> </td>
-                <td><input type="button" value="c" onclick="clearDisplay()"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="1" onclick="appendToDisplay('1')"></td>
-                <td><input type="button" value="2" onclick="appendToDisplay('2')"></td>
-                <td><input type="button" value="3" onclick="appendToDisplay('3')"></td>
-                <td><input type="button" value="/" onclick="appendToDisplay('/')"></td>
-                
+    </div>
+    <table>
+        <tr>
+            <td colspan="3"><input placeholder="Enter numbers or symbol" type="text" id="display" disabled></td>
+            <td><input type="button" value="C" onclick="clearDisplay()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="appendToDisplay('1')"></td>
+            <td><input type="button" value="2" onclick="appendToDisplay('2')"></td>
+            <td><input type="button" value="3" onclick="appendToDisplay('3')"></td>
+            <td><input type="button" value="÷" onclick="appendToDisplay('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="appendToDisplay('4')"></td>
+            <td><input type="button" value="5" onclick="appendToDisplay('5')"></td>
+            <td><input type="button" value="6" onclick="appendToDisplay('6')"></td>
+            <td><input type="button" value="×" onclick="appendToDisplay('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="appendToDisplay('7')"></td>
+            <td><input type="button" value="8" onclick="appendToDisplay('8')"></td>
+            <td><input type="button" value="9" onclick="appendToDisplay('9')"></td>
+            <td><input type="button" value="+" onclick="appendToDisplay('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="appendToDisplay('0')"></td>
+            <td><input type="button" value="." onclick="appendToDisplay('.')"></td>
+            <td><input type="button" value="=" onclick="calculate()"></td>
+            <td><input type="button" value="-" onclick="appendToDisplay('-')"></td>
+        </tr>
+    </table>
 
-            </tr>
-            <tr>
-                <td><input type="button" value="4" onclick="appendToDisplay('4')"></td>
-                <td><input type="button" value="5" onclick="appendToDisplay('5')"></td>
-                <td><input type="button" value="6" onclick="appendToDisplay('6')"></td>
-                <td><input type="button" value="*" onclick="appendToDisplay('*')"></td>
-                
-
-            </tr>
-            <tr>
-                <td><input type="button" value="7" onclick="appendToDisplay('7')"></td>
-                <td><input type="button" value="8" onclick="appendToDisplay('8')"></td>
-                <td><input type="button" value="9" onclick="appendToDisplay('9')"></td>
-                <td><input type="button" value="+" onclick="appendToDisplay('+')"></td>
-                
-
-            </tr>
-            <tr>
-                <td><input type="button" value="0" onclick="appendToDisplay('0')"></td>
-                <td><input type="button" value="." onclick="appendToDisplay('.')"></td>
-                <td><input type="button" value="=" onclick="calculate()"></td>
-                <td><input type="button" value="-" onclick="appendToDisplay('-')"></td>
-                
-
-            </tr>
-        </table>
-
-
-   
-
-<script src="Calculator.js"></script>
-
+    <script src="Calculator.js"></script>
 </body>
 </html>
