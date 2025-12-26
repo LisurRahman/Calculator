@@ -39,7 +39,19 @@ h1 {
 }
 
 input::placeholder {
-    font-size: 70%;
+    font-size: 90%;
+}
+
+#C_button {
+    background-color: rgb(197, 23, 107);
+}
+
+#C_button:hover {
+    background-color: rgb(231, 20, 55);
+}
+
+#C_button:active {
+    background-color: rgb(106, 29, 230);
 }
 
 table {
@@ -71,8 +83,10 @@ input:hover {
 }
 
 input:active {
-    background-color: rgb(230, 29, 29);
+    background-color: rgb(106, 29, 230);
 }
+
+
 
 input[type="button"] {
     color: rgb(29, 32, 34);
