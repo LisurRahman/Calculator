@@ -113,11 +113,11 @@ input[type="button"] {
 /* Desktop devices (1024px and up) */
 @media (min-width: 1024px) {
     h1 {
-        padding: 40px;
+        padding: 10px;
     }
 
     table {
-        width: 90%;
+        width: 70%;
     }
 
     input {
